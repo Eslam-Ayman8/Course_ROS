@@ -1,0 +1,2 @@
+ROS_robotics:ros_robotics:simple_arm
+-DCATKIN_DEVEL_PREFIX=/home/eslam/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/eslam/catkin_ws/install -G Unix Makefiles
