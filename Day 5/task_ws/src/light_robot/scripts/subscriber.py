@@ -10,6 +10,7 @@ def listener():
 	rospy.init_node("node_2", anonymous=False)
 
 	rospy.Subscriber("topic_1", String, callback)
+	
 
 	rospy.spin()
 

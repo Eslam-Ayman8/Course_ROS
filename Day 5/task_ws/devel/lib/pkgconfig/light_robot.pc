@@ -3,6 +3,6 @@ prefix=/home/eslam/ROS_Course/Day 5/task_ws/devel
 Name: light_robot
 Description: Description of light_robot
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/eslam/ROS_Course/Day 5/task_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: 
