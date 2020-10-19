@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = "/home/eslam/ROS_Course/Day 5/task_ws/build"
 include light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/progress.make
 
 light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/complx.h
+light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/textmessage.h
 
 
 /home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/complx.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -62,8 +63,16 @@ light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/eslam/ROS_Course
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from light_robot/complx.msg"
 	cd "/home/eslam/ROS_Course/Day 5/task_ws/src/light_robot" && "/home/eslam/ROS_Course/Day 5/task_ws/build/catkin_generated/env_cached.sh" /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg/complx.msg -Ilight_robot:/home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot -e /opt/ros/melodic/share/gencpp/cmake/..
 
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/textmessage.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/textmessage.h: /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/srv/textmessage.srv
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/textmessage.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/textmessage.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from light_robot/textmessage.srv"
+	cd "/home/eslam/ROS_Course/Day 5/task_ws/src/light_robot" && "/home/eslam/ROS_Course/Day 5/task_ws/build/catkin_generated/env_cached.sh" /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/srv/textmessage.srv -Ilight_robot:/home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot -e /opt/ros/melodic/share/gencpp/cmake/..
+
 light_robot_generate_messages_cpp: light_robot/CMakeFiles/light_robot_generate_messages_cpp
 light_robot_generate_messages_cpp: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/complx.h
+light_robot_generate_messages_cpp: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/include/light_robot/textmessage.h
 light_robot_generate_messages_cpp: light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/build.make
 
 .PHONY : light_robot_generate_messages_cpp

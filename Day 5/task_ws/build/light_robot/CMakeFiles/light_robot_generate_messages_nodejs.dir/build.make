@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = "/home/eslam/ROS_Course/Day 5/task_ws/build"
 include light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/progress.make
 
 light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/msg/complx.js
+light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/srv/textmessage.js
 
 
 /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/msg/complx.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/eslam/ROS_Cou
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from light_robot/complx.msg"
 	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg/complx.msg -Ilight_robot:/home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/msg
 
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/srv/textmessage.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/srv/textmessage.js: /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/srv/textmessage.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from light_robot/textmessage.srv"
+	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/srv/textmessage.srv -Ilight_robot:/home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/srv
+
 light_robot_generate_messages_nodejs: light_robot/CMakeFiles/light_robot_generate_messages_nodejs
 light_robot_generate_messages_nodejs: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/msg/complx.js
+light_robot_generate_messages_nodejs: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/gennodejs/ros/light_robot/srv/textmessage.js
 light_robot_generate_messages_nodejs: light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/build.make
 
 .PHONY : light_robot_generate_messages_nodejs

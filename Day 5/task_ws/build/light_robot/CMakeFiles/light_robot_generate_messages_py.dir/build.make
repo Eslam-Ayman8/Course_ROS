@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = "/home/eslam/ROS_Course/Day 5/task_ws/build"
 include light_robot/CMakeFiles/light_robot_generate_messages_py.dir/progress.make
 
 light_robot/CMakeFiles/light_robot_generate_messages_py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complx.py
+light_robot/CMakeFiles/light_robot_generate_messages_py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_textmessage.py
 light_robot/CMakeFiles/light_robot_generate_messages_py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py
+light_robot/CMakeFiles/light_robot_generate_messages_py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py
 
 
 /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complx.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
@@ -62,14 +64,28 @@ light_robot/CMakeFiles/light_robot_generate_messages_py: /home/eslam/ROS_Course/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG light_robot/complx"
 	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg/complx.msg -Ilight_robot:/home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg
 
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_textmessage.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_textmessage.py: /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/srv/textmessage.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV light_robot/textmessage"
+	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/srv/textmessage.srv -Ilight_robot:/home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv
+
 /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complx.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for light_robot"
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_textmessage.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for light_robot"
 	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg --initpy
+
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complx.py
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_textmessage.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for light_robot"
+	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv --initpy
 
 light_robot_generate_messages_py: light_robot/CMakeFiles/light_robot_generate_messages_py
 light_robot_generate_messages_py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complx.py
+light_robot_generate_messages_py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_textmessage.py
 light_robot_generate_messages_py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py
+light_robot_generate_messages_py: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py
 light_robot_generate_messages_py: light_robot/CMakeFiles/light_robot_generate_messages_py.dir/build.make
 
 .PHONY : light_robot_generate_messages_py

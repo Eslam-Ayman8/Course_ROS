@@ -42,6 +42,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/srv" TYPE FILE FILES "/home/eslam/ROS_Course/Day 5/task_ws/src/light_robot/srv/textmessage.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/cmake" TYPE FILE FILES "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot/catkin_generated/installspace/light_robot-msg-paths.cmake")
 endif()
 

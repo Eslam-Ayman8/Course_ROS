@@ -558,6 +558,19 @@ light_robot_generate_messages_py/fast:
 .PHONY : light_robot_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named _light_robot_generate_messages_check_deps_textmessage
+
+# Build rule for target.
+_light_robot_generate_messages_check_deps_textmessage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _light_robot_generate_messages_check_deps_textmessage
+.PHONY : _light_robot_generate_messages_check_deps_textmessage
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_textmessage/fast:
+	$(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_textmessage.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_textmessage.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_textmessage/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -678,6 +691,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... light_robot_generate_messages_py"
+	@echo "... _light_robot_generate_messages_check_deps_textmessage"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"

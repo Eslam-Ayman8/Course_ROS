@@ -483,6 +483,21 @@ light_robot_generate_messages_py/fast:
 .PHONY : light_robot_generate_messages_py/fast
 
 # Convenience name for target.
+light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_textmessage.dir/rule:
+	cd "/home/eslam/ROS_Course/Day 5/task_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_textmessage.dir/rule
+.PHONY : light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_textmessage.dir/rule
+
+# Convenience name for target.
+_light_robot_generate_messages_check_deps_textmessage: light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_textmessage.dir/rule
+
+.PHONY : _light_robot_generate_messages_check_deps_textmessage
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_textmessage/fast:
+	cd "/home/eslam/ROS_Course/Day 5/task_ws/build" && $(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_textmessage.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_textmessage.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_textmessage/fast
+
+# Convenience name for target.
 light_robot/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
 	cd "/home/eslam/ROS_Course/Day 5/task_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : light_robot/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
@@ -606,6 +621,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... light_robot_generate_messages_py"
+	@echo "... _light_robot_generate_messages_check_deps_textmessage"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"

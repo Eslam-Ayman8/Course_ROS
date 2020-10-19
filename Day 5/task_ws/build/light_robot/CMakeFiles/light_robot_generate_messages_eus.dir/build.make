@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = "/home/eslam/ROS_Course/Day 5/task_ws/build"
 include light_robot/CMakeFiles/light_robot_generate_messages_eus.dir/progress.make
 
 light_robot/CMakeFiles/light_robot_generate_messages_eus: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/msg/complx.l
+light_robot/CMakeFiles/light_robot_generate_messages_eus: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/srv/textmessage.l
 light_robot/CMakeFiles/light_robot_generate_messages_eus: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/manifest.l
 
 
@@ -62,12 +63,18 @@ light_robot/CMakeFiles/light_robot_generate_messages_eus: /home/eslam/ROS_Course
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from light_robot/complx.msg"
 	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg/complx.msg -Ilight_robot:/home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/msg
 
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/srv/textmessage.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/srv/textmessage.l: /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/srv/textmessage.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from light_robot/textmessage.srv"
+	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/srv/textmessage.srv -Ilight_robot:/home/eslam/ROS_Course/Day\ 5/task_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/srv
+
 /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for light_robot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/eslam/ROS_Course/Day 5/task_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for light_robot"
 	cd "/home/eslam/ROS_Course/Day 5/task_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot light_robot std_msgs
 
 light_robot_generate_messages_eus: light_robot/CMakeFiles/light_robot_generate_messages_eus
 light_robot_generate_messages_eus: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/msg/complx.l
+light_robot_generate_messages_eus: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/srv/textmessage.l
 light_robot_generate_messages_eus: /home/eslam/ROS_Course/Day\ 5/task_ws/devel/share/roseus/ros/light_robot/manifest.l
 light_robot_generate_messages_eus: light_robot/CMakeFiles/light_robot_generate_messages_eus.dir/build.make
 
