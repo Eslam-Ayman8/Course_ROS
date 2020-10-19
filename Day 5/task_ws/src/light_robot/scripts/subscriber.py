@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 import rospy
-from std_msgs.msg import String
+from std_msgs.msg import Int32
 
 def callback(data):
-	rospy.loginfo("I heard %s ", data.data)
+	rospy.loginfo("We heard %d now ", data.data)
 
 def listener():
 
-	rospy.init_node("node_2", anonymous=False)
+	rospy.init_node("node_2py", anonymous=False)
 
-	rospy.Subscriber("topic_1", String, callback)
+	rospy.Subscriber("topic_name", Int32, callback)
 	
 
 	rospy.spin()
