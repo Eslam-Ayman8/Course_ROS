@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/eslam/ROS_Course/Day 6/task_ws/devel -DCMAKE_INSTALL_PREFIX=/home/eslam/ROS_Course/Day 6/task_ws/install -G Unix Makefiles
